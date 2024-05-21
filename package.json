@@ -1,0 +1,24 @@
+{
+	"name": "pimpmylivevision",
+	"version": "1.0.0",
+	"main": "main.js",
+	"scripts": {
+		"format": "prettier -w .",
+		"package": "companion-module-build"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bitfocus/companion-module-pimpmylivevision.git"
+	},
+	"dependencies": {
+		"@companion-module/base": "~1.7.0",
+		"got": "^12.6.0",
+		"jimp": "^0.22.12",
+		"ws": "^7.2.1"
+	},
+	"devDependencies": {
+		"@companion-module/tools": "^1.4.2"
+	},
+	"prettier": "@companion-module/tools/.prettierrc.json"
+}

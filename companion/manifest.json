@@ -1,0 +1,26 @@
+{
+	"id": "pimpmylivevision",
+	"name": "PimpMyLive Vision",
+	"shortname": "pml.vision",
+	"description": "Control your PimpMyLive Vision screen",
+	"version": "1.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-pimpmylivevision.git",
+	"bugs": "https://github.com/bitfocus/companion-module-pimpmylivevision/issues",
+	"maintainers": [
+		{
+			"name": "Laurent Vandermeersch",
+			"email": "laurent@pimpmy.company"
+		}
+	],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "PimpMyCompany",
+	"products": ["PimpMyLive Controller"],
+	"keywords": []
+}
